@@ -1,0 +1,78 @@
+@font-face {
+  font-family: Inconsolata;
+  src: url(https://fonts.googleapis.com/css2?family=Inconsolata);
+}
+
+#active-badges {
+  position: relative;
+ 
+  padding-left: 1050px;
+  padding-top: 800px;
+}
+
+#active-badge-text {
+  font-size: 24px;
+  color: pink;
+}
+
+#board {
+  max-width: 1000px;
+  padding-bottom: 100px;
+  position: absolute;
+}
+
+
+#buttons {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  padding-left: 1050px;
+  padding-top: 50px;
+}
+
+#refresh-button {
+  border: none;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+#piece-div {
+  max-width: 1000px;
+  position: absolute;
+  top: 470px;
+  left: 50px;
+}
+
+#overlay-text {
+  font-family: Inconsolata;
+  font-size: 48px;
+  position: absolute;
+  top: 260px;
+  left: 370px;
+  width: 475px;
+  z-index: 5;
+}
+
+#name-entry {
+  width: 450px;
+  height: 50px;
+  font-size: 48px;
+  border: none;
+}
+
+.piece {
+  max-width: 160px;
+  padding-right: 29px;
+  padding-bottom: 25px;
+  position: relative;
+}
+
+.badge-toggle {
+  border: solid 4px #9DBBE8;
+  border-radius: 4px;
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 10px;
+}
